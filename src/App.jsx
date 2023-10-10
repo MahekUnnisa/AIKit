@@ -1,8 +1,5 @@
-import React from 'react'
 import './App.css'
-import Hero from './components/Hero'
-import Demo from './components/Demo'
-
+import { Hero, Demo, ImageGen } from './components'
 
 const App = () => {
   return (
@@ -13,7 +10,8 @@ const App = () => {
 
       <div className='app'>
         <Hero />
-        <Demo />
+        {/* <Demo /> */}
+        <ImageGen />
       </div>
     </main>
   )
