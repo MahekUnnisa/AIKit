@@ -1,6 +1,6 @@
+import { Navbar, Summarizer, ImageGen, Footer } from './components'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Navbar, Summarizer, ImageGen } from './components'
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Summarizer />} />
           <Route path="/ai-image-generator" element={<ImageGen />} />
         </Routes>
+        <Footer />
       </div>
     </main>
   )

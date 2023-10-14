@@ -70,7 +70,7 @@
 /* Tailwind Styles */
 
 .app {
-    @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+    @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6 my-2;
 }
 
 .black_btn {
@@ -112,3 +112,32 @@
 /* .summary_box {
     @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199, 199, 199, 0.2)] backdrop-blur p-4;
 } */
+
+.buy-me-coffee {
+    height: 50px !important;
+    width: 150px !important;
+}
+
+/* styles.css (or your CSS-in-JS solution) */
+/* Note: Custom scrollbar styles may not work in all browsers, and you may need to add vendor prefixes for full browser support. */
+/* Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+    /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: teal;
+    /* Color of the scrollbar thumb */
+    border-radius: 5px;
+    /* Rounded corners for the thumb */
+}
+
+/* Firefox */
+* {
+    scrollbar-color: teal #fff;
+}
