@@ -1,5 +1,6 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Hero, Demo, ImageGen } from './components'
+import { Navbar, Summarizer, ImageGen } from './components'
 
 const App = () => {
   return (
@@ -9,9 +10,11 @@ const App = () => {
       </div>
 
       <div className='app'>
-        <Hero />
-        {/* <Demo /> */}
-        <ImageGen />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Summarizer />} />
+          <Route path="/ai-image-generator" element={<ImageGen />} />
+        </Routes>
       </div>
     </main>
   )
