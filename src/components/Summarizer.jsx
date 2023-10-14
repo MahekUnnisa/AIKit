@@ -66,8 +66,7 @@ const Summarizer = () => {
                 <span className='orange_gradient '>OpenAI GPT-4</span>
             </h1>
             <h2 className='desc'>
-                Simplify your reading with Summize, an open-source article summarizer
-                that transforms lengthy articles into clear and concise summaries
+                Enhance Your Reading with AIProKit, an Open-Source Article Summarizer that Condenses Lengthy Texts into Crisp and Clear Summaries.
             </h2>
             <section className='mt-16 w-full max-w-xl'>
                 {/* Search */}

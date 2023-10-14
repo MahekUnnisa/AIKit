@@ -94,8 +94,7 @@ const ImageGen = () => {
                 <span className='orange_gradient '>OpenAI GPT-4</span>
             </h1>
             <h2 className='desc'>
-                Enhance your images with Summize, an open-source ai powered image generator
-                that transforms your prompts into dashing visuals
+            Elevate your visuals with AIProKit, an AI-powered open-source image generator that turns your prompts into stunning graphics.
             </h2>
             <section className='mt-16 w-full max-w-xl'>
                 {/* Search */}
