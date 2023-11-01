@@ -110,7 +110,7 @@ const ImageGen = () => {
                         />
 
                         <input
-                            type='url'
+                            type='text'
                             placeholder='Enter the prompt'
                             value={imageData.prompt}
                             onChange={(e) => setImageData({ ...imageData, prompt: e.target.value })}
